@@ -1,0 +1,59 @@
+form table {
+  width: 20%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+form {
+  padding: 0px;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  vertical-align: top;
+  background-color: rgb(228, 233, 233);
+}
+
+.Sign Up p {
+font-size: 40px;
+text-align: center;
+margin: 40px 0;
+}
+
+.Sign Up H2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0;
+  }
+
+  .Sign Up input {
+    font-size: 16px;
+padding: 15px 10px ;  
+  margin: 40px 0;
+  border: 0;
+  width: 100px;
+  border-radius: 5px;
+    }
+
+    
+form button[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: 0cap;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Label styling */
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px; /* Space between label and input */
+    min-width: 120px; /* Minimum width to align with other labels */
+}
+
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}

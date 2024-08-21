@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
+  border: 2px solid #ddd;
+}
+
+td label {
+  font-weight: bold;
+}
+ 
+th {
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
+  border: 2px solid #ddd;
+}
+
+th label {
+  font-weight: bold;
+}
+ 
