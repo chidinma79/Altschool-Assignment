@@ -1,59 +1,106 @@
-form table {
-  width: 20%;
-  border-collapse: collapse;
-  margin-top: 20px;
+
+body{
+  background-color:rgba(245, 222, 179, 0.112);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* margin-left: 20em; */
 }
 
-form {
-  padding: 0px;
-  margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  vertical-align: top;
-  background-color: rgb(228, 233, 233);
+
+
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Sign Up p {
-font-size: 40px;
-text-align: center;
-margin: 40px 0;
+
+p{
+  color: #777;
+  margin-top: -15px;
 }
 
-.Sign Up H2 {
-  font-size: 40px;
-  text-align: center;
-  margin: 40px 0;
-  }
+input[type = "email"]{
+  margin-right: 10px;
+}
 
-  .Sign Up input {
-    font-size: 16px;
-padding: 15px 10px ;  
-  margin: 40px 0;
+#how{
+  color: black;
+}
+
+#text4{
   border: 0;
-  width: 100px;
-  border-radius: 5px;
-    }
-
-    
-form button[type="submit"] {
-  width: 20%;
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: 0cap;
-  border-radius: 4px;
+  background-color:rgba(128, 128, 128, 0.084);
+  padding: 1em;
+  border-radius: 3px;
+  width: auto;
+}
+#text5{
+  border: 0;
+  background-color:rgba(128, 128, 128, 0.084);
+  padding: 1em;
+  border-radius: 3px;
+  width: auto;
+  margin-right: 10px;
+}
+button{
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
+  width: 656px;
+  padding: 1em;
+  background-color: purple;
+  color: whitesmoke;
+  border: 0;
+}
+.fa-arrow-right{
+  margin-left: 10px;
 }
 
-/* Label styling */
-.form-group label {
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: 20px; /* Space between label and input */
-    min-width: 120px; /* Minimum width to align with other labels */
+
+#text1{
+  border: 0;
+  background-color:rgba(128, 128, 128, 0.084);
+  padding: 1em;
+  border-radius: 3px;
+  width: 300px;
+}
+#text3{
+  border: 0;
+  background-color:rgba(128, 128, 128, 0.084);
+  padding: 1em;
+  border-radius: 3px;
+  width: 325px;
+  margin-right: 10px;
+}
+#text2{
+  border: 0;
+  background-color:rgba(128, 128, 128, 0.084);
+  padding: 1em;
+  border-radius: 3px;
+  width: 325px;
 }
 
+@media(max-width: 500px) {
+  .external{
+    color: rebeccapurple
+  }
+}
 
-form button[type="submit"]:hover {
-  background-color: #0056b3;
+.form-control1{
+  margin-right: 10px;
+}
+.flex3{
+  display: flex;
+  
+}
+
+.flex{
+  display: flex;
+}
+.flex1{
+  display: flex;
+}
+
+footer {
+  background-color: #ea90ec;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }

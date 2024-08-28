@@ -26,3 +26,11 @@ th label {
   font-weight: bold;
 }
  
+
+footer {
+  
+  background-color: #ea90ec;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}

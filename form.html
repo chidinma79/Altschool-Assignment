@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,125 +6,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AltSchool Application Form</title>
-
-    <link rel="stylesheet" href="./CSS/form.css">
+    <link href="CSS/form.css" rel="stylesheet"/>
 
 </head>
 
 <body>
     <header>
+        <h1>Introduction</h1>
         <nav>
+          <div class="nav-bar">
             <ul>
-                <li><a href="Home.html"> About Me</a></li>
-                <li><a href="form.html"> Application Form</a></li>
+              <li><a href="Home.html"> About Me</a></li>
+              <li><a href="form.html"> Application Form</a></li>
+              <li><a href="table.html">Altschool Courses</a> </li>
+              <li><a href="media.html">All media represntations</a></li>
             </ul>
+          </div>
         </nav>
-    </header>
-    <h2>Sign Up</h2>
-    <p>Take the next steps to apply at AltSchool Africa</p>
-
-    <td>
-        <tr>
-            <form>
-                <label for="fname">First Name:</label>
-                <input type="text" name="fname" placeholder="Enter first name">
+      </header>
+    <div class ="main-container">
+        <h2 >Sign Up</h2>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+        <br>
+        <div class="wrapper">
+        <form id="contact" class="altschool-form">
+            <div class="flex">
+            <div class="form-control1">
+                <label for="fname">First Name:</label><br>
+                <input id="text1" type="text" name="fname" placeholder="Enter first name"><br>
                 <br>
-        </tr>
-    </td>
-
-    <td>
-        <tr>
-            <label for="lname"> Last Name:</label>
-            <input type="text" name="lname" placeholder="Enter last name">
+            </div>
             <br>
-        </tr>
-    </td>
-    <label for="">Gender:</label><br>
-    <select name="gender" id="gender" required>
-        <option value="" disabled selected hidden>select gender</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select>
-
-    <label for="birthday">Date of Birth:</label>
-    <input type="date" id="birthday" name="birthday">
-    <br>
-
-    <label for="email">Email Address:</label>
-    <input type="email" name="fname" placeholder="Enter email address">
-    <br>
-
-    <label for="Phone">Phone Number:</label>
-    <input type="tel" name="Phone" placeholder="1234567890">
-    <br>
-
-    <label for="Country">Select Country:</label>
-<select id="Country" name="Country">
-    <Option value="">--Select a Country--</Option>
-    <option value="AF">Afghanistan</option>
-    <option value="AF">Albania</option>
-    <option value="AF">Algeria</option>
-    <option value="AF">Andorra</option>
-    <option value="AF">Angola</option>
-    <option value="AF">Argentina</option>
-    <option value="AF">Australia</option>
-    <option value="AF">Austria</option>
-    <option value="AF">Azerbaijan</option>
-    <option value="AF">Bahamas</option>
-    <option value="AF">Bahrain</option>
-    <option value="AF">Barbados</option>
-    <option value="AF">Belarus</option>
-    <option value="AF">Belize</option>
-    <option value="AF">Benin</option>
-    <option value="AF">Bhutan</option>
-    <option value="AF">Bolivia</option>
-    <option value="AF">Bosnia and Herzegovina</option>
-    <option value="AF">Bostwana</option>
-    <option value="AF">Brazil</option>
-    <option value="AF">Brunel</option>
-    <option value="AF">Bulgaria</option>
-    <option value="AF">Burkina Faso</option>
-    <option value="AF">Burundi</option>
-    <option value="AF">Carbo verde</option>
-    <option value="AF">Cambodia</option>
-    <option value="AF">Cameroon</option>
-</select>
-    <br>
-
-    <label for="fname">State/City of Residence:</label>
-    <input type="text" name="fname" placeholder="Enter city of residence">
-    <br>
-
-    <P>How did you hear about us?</P>
-    <select name="Channel" id="Channel" required>
-        <option value="Channel" disabled selected hidden>select channel</option>
-        <option value="facebook">facebook</option>
-        <option value="Linkedln">Linkedln</option>
-        <option value="Instagram">Instagram</option>
-        <option value="Twitter">Twitter</option>
-        <option value="Youtube">Youtube</option>
-        <option value="Friend">Friend</option>
-        <option value="Whatsapp">Whatsapp</option>
-        <option value="Billboard">Billboard</option>
-    </select>
-    <br>
-
-    <label for="fname">Password:</label>
-    <input type="password" name="fname" placeholder="password">
-    <br>
-
-    <label for="fname">Confirm Password:</label>
-    <input type="password" name="fname" placeholder="confirm password">
-    <br>
-
-    <p> <input type="checkbox" name="checkbox" id="checkbox"> By clicking submit, I agree to the terms of use and
-        acknowlege that I have read the privacy policy.</p>
-    <button type="button">Submit</button>
-
-    <footer>
-        <p id="footer-p">&copy Joy Ochuba 2024</p>
-      </footer>
-
+            <div class="form-control2">
+                <label for="lname"> Last Name:</label><br>
+                <input id="text1" type="text" name="lname" placeholder="Enter last name">
+                <br>
+            </div>
+            </div>
+            <div class="flex1">
+            <div class="form-control1">
+                <label for="">Gender:</label><br>
+                <select id="text2" name="gender" id="gender" required>
+                    <option value="" disabled selected hidden>select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-control2">
+                <label for="" >Date of Birth:</label><br>
+                <input type="date" id="text1" name="birthday" >
+                <br>
+            </div> <br>
+            </div>
+          
+           <div class="flex3">
+            <div class="form-control">
+                <label for="email">Email Address:</label><br>
+                <input id="text1" type="email" name="fname" placeholder="Enter email address">
+                <br>
+            </div> 
+            <br>
+            <div class="form-control">
+                <label for="Phone" >Phone Number:</label><br>
+                <input id="text1" type="tel" name="Phone" placeholder="1234567890">
+                <br>
+            </div>  
+            <br>     
+        </div>
+             <div class="flex">
+            <div class="form-control">
+                <label for="Country">Country:</label><br>
+                <select id="text3" name="Country">
+                    <Option value="">--Select a Country--</Option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="Al">Albania</option>
+                    <option value="Al">Algeria</option>
+                    <option value="An">Andorra</option>
+                    <option value="An">Angola</option>
+                    <option value="Ar">Argentina</option>
+                    <option value="Au">Australia</option>
+                    <option value="Au">Austria</option>
+                    <option value="Az">Azerbaijan</option>
+                    <option value="Ba">Bahamas</option>
+                    <option value="Ba">Bahrain</option>
+                    <option value="Ba">Barbados</option>
+                    <option value="Be">Belarus</option>
+                    <option value="Be">Belize</option>
+                    <option value="Be">Benin</option>
+                    <option value="Bh">Bhutan</option>
+                    <option value="Bo">Bolivia</option>
+                    <option value="Bo">Bosnia and Herzegovina</option>
+                    <option value="Bo">Bostwana</option>
+                    <option value="Br">Brazil</option>
+                    <option value="Br">Brunel</option>
+                    <option value="Bu">Bulgaria</option>
+                    <option value="Bu">Burkina Faso</option>
+                    <option value="Bu">Burundi</option>
+                    <option value="Ca">Carbo verde</option>
+                    <option value="Ca">Cambodia</option>
+                    <option value="Ca">Cameroon</option>
+                </select>
+            </div><br>
+            <div class="form-control1">
+                <label for="fname">State/City of Residence</label><br>
+                <input id="text1" type="text" name="fname" placeholder="Enter your state of residence"><br>
+                <br>
+            </div>
+        </div>
+            <br>
+            <div class="form-control">
+                <P id="how">How did you hear about us?</P>
+                <select name="Channel" id="text4" required>
+                    <option value="Channel" disabled selected hidden>select channel</option>
+                    <option value="facebook">facebook</option>
+                    <option value="Linkedln">Linkedln</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Whatsapp">Whatsapp</option>
+                    <option value="Billboard">Billboard</option>
+                </select>
+            </div>
+            <br>
+            <div class="flex">
+            <div class="form-control">
+                <label for="fname">Password:</label><br>
+                <input id="text5" type="password" name="fname" placeholder="password" required>
+                <br>
+            </div>
+            <br>
+            <div class="form-control">
+                <label for="fname">Confirm Password:</label><br>
+                <input id="text1" type="password" name="fname" placeholder="confirm password"><br><br><br>
+                <br>
+            </div>
+            <br>
+        </div>
+            <div class="form-control">
+                <p> <input type="checkbox" name="checkbox" id="checkbox"> By clicking submit, I agree to the terms of use and
+                    acknowlege that I have read the privacy policy.</p>
+                <button type="button">Submit <i class="fa fa-arrow-right"></i></button>   <br><br>         
+            </div>
+        </form>
+        </div>
+    </div>
+    
+    
+    <div class="footer-bottom">
+        <footer>
+            <p id="footer-p">&copy Joy Ochuba 2024</p>
+          </footer>
+    
+    </div>
 </body>
 
 </html>

@@ -5,18 +5,29 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Media gallery</title>
+   <link rel="stylesheet" href="CSS/Home.css">
 </head>
 
 <body>
-
-   <nav>
+   <header>
+      <h1>Introduction</h1>
+      <nav>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="Home.html"> About Me</a></li>
+            <li><a href="form.html"> Application Form</a></li>
+            <li><a href="table.html">Altschool Courses</a> </li>
+            <li><a href="media.html">All media represntations</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>  <nav>
       <ul>
          <li><a href="media.html"> My gallery</a></li>
          <li><a href="table.html"> ALTSchool Courses</a></li>
       </ul>
    </nav>
 
-   <link rel="stylesheet" href="../Assignment.html/CSS/media.css">
 
    <h1>Using media represntations to tell a short story about my natural hair</h1>
 
@@ -31,13 +42,13 @@
       <picture>
          <div class="grid-container">
             <!--image for devices with width 1200px and above (laptops and desktop)-->
-            <img src="../image/A2.jpg" width="200" height="250" media="(min-width: 1200px)" alt="My natural hair journey"><br>
+            <img src="../Media/A2.jpg" width="200" height="250" media="(min-width: 1200px)" alt="My natural hair journey"><br>
             <p> My hair can be put up in any desired style.</p>
             <!--image for devices with width between 768px and 1199px (Tablets)-->
-            <img src="../image/A1.jpg" width="200" height="250" media="(min-width: 768) and (max-width: 1199)" alt="My natural hair journey"> <br>
+            <img src="../Media/A1.jpg" width="200" height="250" media="(min-width: 768) and (max-width: 1199)" alt="My natural hair journey"> <br>
             <p>Showing off my fro in an African way.</p>
             <!--image for devices with width between 480px and 767px (mobile)-->
-            <img src="../image/A3.jpg" width="200" height="250" media="(max-width: 479px)" alt=" When my hair has grown and full in volume">
+            <img src="../Media/A3.jpg" width="200" height="250" media="(max-width: 479px)" alt=" When my hair has grown and full in volume">
             <p>The lenght of my hair within 7 years, I was amazed!</p>
          </div>
    </section>
@@ -48,7 +59,7 @@
          <h2>Audio</h2>
          <div class="audio-container">
             <audio controls>
-               <source src="../image/New Recording.mp4" type="audio/mp4" alt="A 10 secsonds audio">
+               <source src="../Media/New Recording.mp4" type="audio/mp4" alt="A 10 secsonds audio">
                Your browser does not support the audio element.
             </audio>
             <p>A 10 seconds audio about my hair growth, enjoy!</p>
@@ -59,7 +70,7 @@
          <h2>Video</h2>
          <div class="video">
             <video controls>
-               <source src="../image/B2.MOV" type="video/B2.MOV">
+               <source src="../Media/B2.MOV" type="video/B2.MOV">
                Your browser does not support the audio element.
             </video>
             <p>Showing off my healthy hair</p>
@@ -69,9 +80,13 @@
    </main>
 
    </div>
-   <footer>
+
+  <div>
+   <footer class="footer-bottom">
       <p id="footer-p">&copy Joy Ochuba 2024</p>
    </footer>
+  </div>
+
 </body>
 
 </html>
