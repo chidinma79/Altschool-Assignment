@@ -1,6 +1,6 @@
 :root {
   --color-choice1: #646269;
-  --color-choice2: #9581eb;
+  --color-choice2: #79775c;
   --color-choice3: #fcf7ff;
   --color-choice4: #7f7891;
 }
@@ -44,6 +44,12 @@ p {
 h2{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.table border {
+  padding: 0;
+color: #646269;
+}
+
 
 footer {
   background-color: var(--color-choice2);

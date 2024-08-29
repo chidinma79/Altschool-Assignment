@@ -5,12 +5,16 @@ body{
   /* margin-left: 20em; */
 }
 
-
-
 h2{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header {
+  background-color: var(--color-choice1);
+  color: var(--color-choice3);
+  padding: 15px;
+  text-align: center;
+}
 
 p{
   color: #777;
@@ -45,7 +49,7 @@ button{
   font-size: 20px;
   width: 656px;
   padding: 1em;
-  background-color: purple;
+  background-color: #1b1b1c;
   color: whitesmoke;
   border: 0;
 }
