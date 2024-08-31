@@ -61,7 +61,7 @@ button{
 #text1{
   border: 0;
   background-color:rgba(128, 128, 128, 0.084);
-  padding: 1em;
+  padding: 10px;
   border-radius: 3px;
   width: 300px;
 }
@@ -76,7 +76,7 @@ button{
 #text2{
   border: 0;
   background-color:rgba(128, 128, 128, 0.084);
-  padding: 1em;
+  padding: 10px;
   border-radius: 3px;
   width: 325px;
 }

@@ -7,7 +7,7 @@
 
 * {
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,6 +38,7 @@ p {
   color: black;
   font-weight: 500;
   font-size: medium;
+  padding: 10px;
 }
 
 
